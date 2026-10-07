@@ -16,7 +16,7 @@ brew install --cask branchbay        # macOS
 brew install branchbay               # Linux
 ```
 
-Beta: `branchbay@beta` in place of `branchbay`.
+Beta: `branchbay@beta` for the cask, `branchbay-beta` for the formula.
 
 ## Nix
 

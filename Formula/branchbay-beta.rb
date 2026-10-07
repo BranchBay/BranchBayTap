@@ -1,4 +1,4 @@
-class BranchbayATBeta < Formula
+class BranchbayBeta < Formula
   desc "Native Git client"
   homepage "https://branchbay.dev/"
   version "1.0.0-beta.1"
