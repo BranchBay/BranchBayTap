@@ -1,0 +1,29 @@
+# Maintainer: BranchBay <contact@branchbay.dev>
+pkgname=branchbay-beta-bin
+_version=1.0.0-beta.1
+pkgver=1.0.0_beta.1
+pkgrel=1
+pkgdesc="Native Git client"
+arch=('x86_64' 'aarch64')
+url="https://branchbay.dev"
+license=('LicenseRef-Proprietary')
+depends=('gcc-libs' 'libxcb' 'libxkbcommon' 'libxkbcommon-x11' 'zlib')
+optdepends=('vulkan-icd-loader: GPU rendering'
+            'wayland: Wayland sessions')
+provides=('branchbay')
+conflicts=('branchbay' 'branchbay-bin' 'branchbay-beta-bin')
+source_x86_64=("branch-bay-${_version}-linux-x86_64.tar.gz::https://releases.branchbay.dev/releases/${_version}/branch-bay-${_version}-linux-x86_64.tar.gz")
+source_aarch64=("branch-bay-${_version}-linux-aarch64.tar.gz::https://releases.branchbay.dev/releases/${_version}/branch-bay-${_version}-linux-aarch64.tar.gz")
+sha256sums_x86_64=('f4543148636df50dee730dcd013dcb50b994460ea6720c4e883c9ca07bd459ef')
+sha256sums_aarch64=('807e1c3f5a6a4045728343ca2531f379beb09551ba76a91546d7897a6b8973f9')
+
+package() {
+  cd "branch-bay-${_version}-linux-${CARCH}"
+  install -Dm755 branch-bay "${pkgdir}/usr/bin/branch-bay"
+  install -Dm644 branch-bay.desktop "${pkgdir}/usr/share/applications/branch-bay.desktop"
+  local size
+  for size in 32 48 128 256 512; do
+    install -Dm644 "icons/hicolor/${size}x${size}/apps/branch-bay.png" \
+      "${pkgdir}/usr/share/icons/hicolor/${size}x${size}/apps/branch-bay.png"
+  done
+}

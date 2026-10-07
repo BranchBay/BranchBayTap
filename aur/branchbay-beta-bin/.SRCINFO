@@ -1,0 +1,25 @@
+pkgbase = branchbay-beta-bin
+	pkgdesc = Native Git client
+	pkgver = 1.0.0_beta.1
+	pkgrel = 1
+	url = https://branchbay.dev
+	arch = x86_64
+	arch = aarch64
+	license = LicenseRef-Proprietary
+	depends = gcc-libs
+	depends = libxcb
+	depends = libxkbcommon
+	depends = libxkbcommon-x11
+	depends = zlib
+	optdepends = vulkan-icd-loader: GPU rendering
+	optdepends = wayland: Wayland sessions
+	provides = branchbay
+	conflicts = branchbay
+	conflicts = branchbay-bin
+	conflicts = branchbay-beta-bin
+	source_x86_64 = branch-bay-1.0.0-beta.1-linux-x86_64.tar.gz::https://releases.branchbay.dev/releases/1.0.0-beta.1/branch-bay-1.0.0-beta.1-linux-x86_64.tar.gz
+	sha256sums_x86_64 = f4543148636df50dee730dcd013dcb50b994460ea6720c4e883c9ca07bd459ef
+	source_aarch64 = branch-bay-1.0.0-beta.1-linux-aarch64.tar.gz::https://releases.branchbay.dev/releases/1.0.0-beta.1/branch-bay-1.0.0-beta.1-linux-aarch64.tar.gz
+	sha256sums_aarch64 = 807e1c3f5a6a4045728343ca2531f379beb09551ba76a91546d7897a6b8973f9
+
+pkgname = branchbay-beta-bin
