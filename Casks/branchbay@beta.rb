@@ -17,7 +17,7 @@ cask "branchbay@beta" do
     end
   end
 
-  depends_on macos: ":ventura"
+  depends_on macos: :ventura
 
   app "BranchBay.app"
   binary "#{appdir}/BranchBay.app/Contents/MacOS/branch-bay", target: "branch-bay"
