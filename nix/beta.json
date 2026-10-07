@@ -11,11 +11,11 @@
     },
     "x86_64-linux": {
       "url": "https://releases.branchbay.dev/releases/1.0.0-beta.1/branch-bay-1.0.0-beta.1-linux-x86_64.tar.gz",
-      "hash": "sha256-9FQxSGNt9Q3ucw3NAT3LULmURg6mcgxOiDycoHvUWe8="
+      "hash": "sha256-qeGe8MfodNGOWle/HAITwHMFcLNj18+yPcwKzGwH8D4="
     },
     "aarch64-linux": {
       "url": "https://releases.branchbay.dev/releases/1.0.0-beta.1/branch-bay-1.0.0-beta.1-linux-aarch64.tar.gz",
-      "hash": "sha256-gH4cP1pqQEVyg0PKJTHzeb6wlVG6dqkVRteJemuJc/k="
+      "hash": "sha256-pdriGql+xxkMDR7nM6ptdcEJaopy0pF9McqQq54Yvzs="
     }
   }
 }

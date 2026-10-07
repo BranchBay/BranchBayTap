@@ -12,6 +12,7 @@ that follows the beta channel instead.
 
 ```sh
 brew tap branchbay/tap https://github.com/BranchBay/BranchBayTap.git
+brew trust branchbay/tap
 brew install --cask branchbay        # macOS
 brew install branchbay               # Linux
 ```

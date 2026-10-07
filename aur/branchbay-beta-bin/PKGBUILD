@@ -14,8 +14,8 @@ provides=('branchbay')
 conflicts=('branchbay' 'branchbay-bin' 'branchbay-beta-bin')
 source_x86_64=("branch-bay-${_version}-linux-x86_64.tar.gz::https://releases.branchbay.dev/releases/${_version}/branch-bay-${_version}-linux-x86_64.tar.gz")
 source_aarch64=("branch-bay-${_version}-linux-aarch64.tar.gz::https://releases.branchbay.dev/releases/${_version}/branch-bay-${_version}-linux-aarch64.tar.gz")
-sha256sums_x86_64=('f4543148636df50dee730dcd013dcb50b994460ea6720c4e883c9ca07bd459ef')
-sha256sums_aarch64=('807e1c3f5a6a4045728343ca2531f379beb09551ba76a91546d7897a6b8973f9')
+sha256sums_x86_64=('a9e19ef0c7e874d18e5a57bf1c0213c0730570b363d7cfb23dcc0acc6c07f03e')
+sha256sums_aarch64=('a5dae21aa97ec7190c0d1ee733aa6d75c1096a8a72d2917d31ca90ab9e18bf3b')
 
 package() {
   cd "branch-bay-${_version}-linux-${CARCH}"
