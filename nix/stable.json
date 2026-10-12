@@ -8,6 +8,14 @@
     "x86_64-darwin": {
       "url": "https://releases.branchbay.dev/releases/1.0.1/BranchBay-1.0.1-macos-x86_64.app.zip",
       "hash": "sha256-qX3GE+J/o/j/1OxU9k+PPqXP3xxlb4Xk2bu7qiS7awo="
+    },
+    "x86_64-linux": {
+      "url": "https://releases.branchbay.dev/releases/1.0.1/branch-bay-1.0.1-linux-x86_64.tar.gz",
+      "hash": "sha256-0AfeBciWKuPzlTDnstWmV2oi3XVoxxpFINTSHplcVd4="
+    },
+    "aarch64-linux": {
+      "url": "https://releases.branchbay.dev/releases/1.0.1/branch-bay-1.0.1-linux-aarch64.tar.gz",
+      "hash": "sha256-w8mZ8i49IragnxioZi4FyZz4N+Z3B/OjmABaQ3fiWf0="
     }
   }
 }
