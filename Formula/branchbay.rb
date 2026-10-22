@@ -3,9 +3,9 @@ class Branchbay < Formula
   homepage "https://branchbay.dev/"
   # A URL outside any block, so the formula loads on macOS too, where
   # `depends_on :linux` then refuses it.
-  url "https://releases.branchbay.dev/releases/1.0.3/branch-bay-1.0.3-linux-x86_64.tar.gz"
-  version "1.0.3"
-  sha256 "fe14d5c6198a0f0493df19d0044a0256a73bf8feac08759ffb336837f80c643a"
+  url "https://releases.branchbay.dev/releases/1.0.4/branch-bay-1.0.4-linux-x86_64.tar.gz"
+  version "1.0.4"
+  sha256 "a096b16292baf881d28b3b475a317712cbb2063a6ee0c9642b382e25a6fee950"
   license :cannot_represent
 
   depends_on "libxcb"
@@ -14,8 +14,8 @@ class Branchbay < Formula
 
   on_linux do
     on_arm do
-      url "https://releases.branchbay.dev/releases/1.0.3/branch-bay-1.0.3-linux-aarch64.tar.gz"
-      sha256 "2102c2f83cd7caa483ece414f40e9f87a9b4846eac57372eb4c926f43080d023"
+      url "https://releases.branchbay.dev/releases/1.0.4/branch-bay-1.0.4-linux-aarch64.tar.gz"
+      sha256 "26dc5d62e4390ebe4fcdce113ef634cf07cfe3c0c843dfb15194366be2e00a2b"
     end
   end
 
