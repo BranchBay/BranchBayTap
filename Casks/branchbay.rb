@@ -1,9 +1,9 @@
 cask "branchbay" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.0.3"
-  sha256 arm:   "3cf1e5f718eed6a7debd96c4fae447c1239d05ec32ff0589f452421908818811",
-         intel: "2bed7dbb350488e23c676f5fb25fb8d1fa2c262dd7d08575fd90eebba2a85f84"
+  version "1.0.4"
+  sha256 arm:   "174183a3f91f712f9debfeaa4acb1e90fe765ed3542327d29c27356384307330",
+         intel: "4f3199216f01d1487b7a3ba5229cd588f39b5bdcaff50eab2dcfeb8a3e0ca6e9"
 
   url "https://releases.branchbay.dev/releases/#{version}/branch-bay-#{version}-macos-#{arch}.dmg"
   name "BranchBay"
