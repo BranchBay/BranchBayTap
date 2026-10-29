@@ -1,7 +1,7 @@
 # Maintainer: BranchBay <contact@branchbay.dev>
 pkgname=branchbay-bin
-_version=1.0.7
-pkgver=1.0.7
+_version=1.0.8
+pkgver=1.0.8
 pkgrel=1
 pkgdesc="Native Git client"
 arch=('x86_64' 'aarch64')
@@ -14,8 +14,8 @@ provides=('branchbay')
 conflicts=('branchbay' 'branchbay-bin' 'branchbay-beta-bin')
 source_x86_64=("branch-bay-${_version}-linux-x86_64.tar.gz::https://releases.branchbay.dev/releases/${_version}/branch-bay-${_version}-linux-x86_64.tar.gz")
 source_aarch64=("branch-bay-${_version}-linux-aarch64.tar.gz::https://releases.branchbay.dev/releases/${_version}/branch-bay-${_version}-linux-aarch64.tar.gz")
-sha256sums_x86_64=('712e61ff7b78fb6e9c337ccf780f9fd9ee432d3c3d3cf5b435a5c4bf820b16ea')
-sha256sums_aarch64=('fbfb850e280144c4097a7900067611d4187cfbcc7cfc495bd8d24c227f7846f0')
+sha256sums_x86_64=('6ad657346bb581f3f086aee0ec8e8c1fcfad5fa56fa34e2c0f825cf67421ccfc')
+sha256sums_aarch64=('59645a7806d692faf26f7746761af734c62021266e02dfbf7ca16bfc3c928340')
 
 package() {
   cd "branch-bay-${_version}-linux-${CARCH}"
