@@ -1,4 +1,13 @@
 {
   "version": "1.0.9",
-  "systems": {}
+  "systems": {
+    "aarch64-darwin": {
+      "url": "https://releases.branchbay.dev/releases/1.0.9/BranchBay-1.0.9-macos-aarch64.app.zip",
+      "hash": "sha256-cVCX2JvivVIFXJxSM8qKF0i/mSwVM4qtGEro9T5q0VM="
+    },
+    "x86_64-darwin": {
+      "url": "https://releases.branchbay.dev/releases/1.0.9/BranchBay-1.0.9-macos-x86_64.app.zip",
+      "hash": "sha256-Pg70gbH8MSJa3lgsUK2f1hZSFDJGu0cMKAPQgRpit+g="
+    }
+  }
 }
