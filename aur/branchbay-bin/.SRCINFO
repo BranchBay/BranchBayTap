@@ -1,6 +1,6 @@
 pkgbase = branchbay-bin
 	pkgdesc = Native Git client
-	pkgver = 1.0.10
+	pkgver = 1.0.11
 	pkgrel = 1
 	url = https://branchbay.dev
 	arch = x86_64
@@ -17,9 +17,9 @@ pkgbase = branchbay-bin
 	conflicts = branchbay
 	conflicts = branchbay-bin
 	conflicts = branchbay-beta-bin
-	source_x86_64 = branch-bay-1.0.10-linux-x86_64.tar.gz::https://releases.branchbay.dev/releases/1.0.10/branch-bay-1.0.10-linux-x86_64.tar.gz
-	sha256sums_x86_64 = e3f4c144b5ec44214a91be721302c269c97d56b577c9dc51bfed4e39e2f44c92
-	source_aarch64 = branch-bay-1.0.10-linux-aarch64.tar.gz::https://releases.branchbay.dev/releases/1.0.10/branch-bay-1.0.10-linux-aarch64.tar.gz
-	sha256sums_aarch64 = 3d1bea1ae56dcb3748b50b492e47aab04656d01d1970b95ea827c3d5ccdd25b4
+	source_x86_64 = branch-bay-1.0.11-linux-x86_64.tar.gz::https://releases.branchbay.dev/releases/1.0.11/branch-bay-1.0.11-linux-x86_64.tar.gz
+	sha256sums_x86_64 = b1f4d24e28d8401b6255993c6698f8f38b7ffd600d04c676b3a22ca081cd4d65
+	source_aarch64 = branch-bay-1.0.11-linux-aarch64.tar.gz::https://releases.branchbay.dev/releases/1.0.11/branch-bay-1.0.11-linux-aarch64.tar.gz
+	sha256sums_aarch64 = 48cfbf2ac8c6138153bac7545fbb6cd793b1d0c9ce3aea9c00e9adcd7169c871
 
 pkgname = branchbay-bin
