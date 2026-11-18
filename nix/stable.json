@@ -1,21 +1,13 @@
 {
-  "version": "1.0.13",
+  "version": "1.1.0",
   "systems": {
     "aarch64-darwin": {
-      "url": "https://releases.branchbay.dev/releases/1.0.13/BranchBay-1.0.13-macos-aarch64.app.zip",
-      "hash": "sha256-0LDN6P8ZwKCiPIKGT7CwOEHa1yUrLUG9UyS3nGPLtyw="
+      "url": "https://releases.branchbay.dev/releases/1.1.0/BranchBay-1.1.0-macos-aarch64.app.zip",
+      "hash": "sha256-VqQYXP5Qo7eBNFgrBnwAdjNeJzYTjCBT3YTPd62LqFs="
     },
     "x86_64-darwin": {
-      "url": "https://releases.branchbay.dev/releases/1.0.13/BranchBay-1.0.13-macos-x86_64.app.zip",
-      "hash": "sha256-yoJypMuylfsUeRSlkUiYZPYnCZgazzkyvCSduvUWXe4="
-    },
-    "x86_64-linux": {
-      "url": "https://releases.branchbay.dev/releases/1.0.13/branch-bay-1.0.13-linux-x86_64.tar.gz",
-      "hash": "sha256-QLUnlBIrBl2xASOMwIQEy2uJ9GSLnaZMhy/hs298RKQ="
-    },
-    "aarch64-linux": {
-      "url": "https://releases.branchbay.dev/releases/1.0.13/branch-bay-1.0.13-linux-aarch64.tar.gz",
-      "hash": "sha256-KoYOzr2NhTrppvJVnBt1IIhpVfMpyvnvh6Z9x1dZDfM="
+      "url": "https://releases.branchbay.dev/releases/1.1.0/BranchBay-1.1.0-macos-x86_64.app.zip",
+      "hash": "sha256-AIWYY9bhvFI5t//zY8OdZP4Mnx7tJyUZDFmphUrYkTQ="
     }
   }
 }
