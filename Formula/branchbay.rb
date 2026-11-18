@@ -5,7 +5,7 @@ class Branchbay < Formula
   # `depends_on :linux` then refuses it.
   url "https://releases.branchbay.dev/releases/1.1.0/branch-bay-1.1.0-linux-x86_64.tar.gz"
   version "1.1.0"
-  sha256 "e6f606d0d1b15e5d9a12a85007224dba5f8849c0570b415a3859b468c4e2917a"
+  sha256 "f7228aad9da40f208cec2b3032be4134c2ba7f92adaad9491271fd22e25c4058"
   license :cannot_represent
 
   depends_on "libxcb"
@@ -15,7 +15,7 @@ class Branchbay < Formula
   on_linux do
     on_arm do
       url "https://releases.branchbay.dev/releases/1.1.0/branch-bay-1.1.0-linux-aarch64.tar.gz"
-      sha256 "5052d0e0db7a63cf41ed6eaa44b57df789c33de3bfe76dfa21bd489c6309a104"
+      sha256 "13969ca89946b5ffa338ccab4b9563db2f4a0aebebbbb88096254e5fcd308c87"
     end
   end
 
